@@ -6,6 +6,8 @@ import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.FileUtil;
 import org.apache.hadoop.fs.Path;
 
+import com.google.common.annotations.VisibleForTesting;
+
 public class HdfsInit {
 
 	public static void main(String[] args) {
@@ -22,5 +24,6 @@ public class HdfsInit {
 			e.printStackTrace();
 		}
 	}
+	
 
 }
